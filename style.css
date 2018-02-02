@@ -1,20 +1,59 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 10vw;
     height: 100vh;
-    font-family: sans-serif
+    font-family: sans-serif;
+    background: url('bg.png');
 }
 
 nav > ul {
     margin: 0;
-    padding-top: 2em;
+    padding: 2em 0;
     display: flex;
     justify-content: space-around;
-    list-style: none
+    list-style: none;
+    color: white;
+    background: #b3b3cc;
+}
+
+nav a {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+
+main {
+    background: white;
+    padding: 1em 2vw;
+}
+
+main > div {
+    padding: 3em 0;
+}
+
+hr {
+    width: 80%;
+    height: 0;
+    border: 1px solid #b3b3cc;
+}
+
+main a {
+    
+    color: #666699
 }
 
 a {
     text-decoration: none;
+    position: relative;
+    z-index: 20;
+}
+
+a:hover {
+    color: #3d3d5c;
 }
 
 #highlighter {
@@ -24,8 +63,10 @@ a {
     height: 30px;
     width: 30px;
     border-radius: 0 1em 1em 1em;
+    box-sizing: border-box;
     background: lightblue;
-    z-index: -10;
+    z-index: 10;
+    border: 2px solid #00ccff;
 
     transition: all 0.3s;
 }
