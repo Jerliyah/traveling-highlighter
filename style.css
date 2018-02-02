@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif
+}
+
+nav > ul {
+    margin: 0;
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+#highlighter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 0 100% 100% 100%;
+    background: lightblue;
+}
