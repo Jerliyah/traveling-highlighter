@@ -23,8 +23,6 @@ function highlight_me(e) {
                                  left: ${my.left - padding}px;
                                  width: ${my.width + (padding * 2)}px;
                                  height: ${my.height + (padding * 2)}px;`
-
-
 }
 
 

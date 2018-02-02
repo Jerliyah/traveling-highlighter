@@ -26,4 +26,6 @@ a {
     border-radius: 0 1em 1em 1em;
     background: lightblue;
     z-index: -10;
+
+    transition: all 0.3s;
 }
